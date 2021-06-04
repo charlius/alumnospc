@@ -50,7 +50,7 @@ class AlumnosImport implements ToModel
             $notaNueva->save();
             $id_apoderado=$notaNueva->id;
 
-            //insert de asignaciones
+            //insert de asignaciones-- falta agregar unos datos
             $notaNueva = new asigncion();
             $notaNueva->descripcion = $row[8];
             $notaNueva->asignacion = $row[9];
