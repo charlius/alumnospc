@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAlumnosTable extends Migration
+class CreateApoderadosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,14 @@ class CreateAlumnosTable extends Migration
      */
     public function up()
     {
-        Schema::create('alumnos', function (Blueprint $table) {
+        Schema::create('apoderados', function (Blueprint $table) {
             $table->id();
-            $table->timestamp('marca_temporal');
-            $table->string('nombre');
-            $table->string('curso');
-            $table->string('rut');
+            $table->string('nombre_apo');
+            $table->string('rut_apo');
+            $table->string('telefono_apo');
+            $table->string('correo_apo');
             $table->timestamp('updated_at');
             $table->timestamp('created_at');
-
         });
     }
 
@@ -32,6 +31,6 @@ class CreateAlumnosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('alumnos');
+        Schema::dropIfExists('apoderados');
     }
 }

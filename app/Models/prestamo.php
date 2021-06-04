@@ -5,12 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Alumnos extends Model
+class prestamo extends Model
 {
     use HasFactory;
-    protected $fillable = [
-        'marca_temporal', 'nombre', 'curso', 'rut'
-    ];
-
-    protected $table = 'alumnos';
 }
