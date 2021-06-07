@@ -13,8 +13,8 @@
           <tr>
             <th scope="col">nombre</th>
             <th scope="col">rut</th>
-            <th scope="col">clave</th>
-            <th scope="col">selecionado</th>
+            <th scope="col">descripcion</th>
+            <th scope="col">asignacion</th>
             <th scope="col">opcion</th>
           </tr>
         </thead>
@@ -23,9 +23,9 @@
             <tr>
                 <th >{{$alumno->nombre}}</th>
                 <td>{{$alumno->rut}}</td>
-                <td>{{$alumno->clave}}</td>
-                <td>{{$alumno->selecionado}}</td>
-                <td><a href="{{ url('/admin/prestamo/'.$alumno->id) }}" class="btn btn-success">Prestamo</a><button type="button" class="btn btn-danger">recepcion</button></td>
+                <td>{{$alumno->descripcion}}</td>
+                <td>{{$alumno->asignacion}}</td>
+                <td><a href="{{ url('/admin/prestamo/'.$alumno->rut) }}" class="btn btn-success">Prestamo</a><button type="button" class="btn btn-danger">recepcion</button></td>
               </tr>
             @endforeach
          

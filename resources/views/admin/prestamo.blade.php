@@ -7,18 +7,32 @@
 @stop
 
 @section('content')
-    <p>prestamo de pc numero {{$alumno->id}}.</p>
+    <p>prestamo de pc numero {{$alumnos[0]->id}}.</p>
+
     <form>
         <div class="form-group row">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">nombre</label>
+          <label for="inputEmail3" class="col-sm-2 col-form-label">nombre alumno</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputEmail3" value="{{$alumno->nombre}}">
+            <input type="text" class="form-control" id="inputEmail3" value="{{$alumnos[0]->nombre}}">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">rut alumno</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword3" value="{{$alumnos[0]->rut}}">
           </div>
         </div>
         <div class="form-group row">
-          <label for="inputPassword3" class="col-sm-2 col-form-label">rut</label>
+          <label for="inputEmail3" class="col-sm-2 col-form-label">nombre apoderado</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword3" value="{{$alumno->rut}}">
+            <input type="text" class="form-control" id="inputEmail3" value="{{$alumnos[0]->nombre}}">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">rut apoderado</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3" value="{{$alumnos[0]->nombre}}">
           </div>
         </div>
         <div class="form-group row">
@@ -33,7 +47,8 @@
         </div>
         <div class="form-group row">
           <div class="col-sm-10">
-            <button type="button" class="btn btn-primary">generar documento</button>
+            
+            <a href="{{ url('/admin/pdf/'.$alumnos[0]->rut) }}" class="btn btn-primary">Prestamo</a>
             <button id="btn" type="submit" class="btn btn-success">guardar</button>
           </div>
         </div>
