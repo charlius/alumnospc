@@ -1,135 +1,142 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"/>
+    <title>Document</title>
+    <style>
+        .three-columns {
+        
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+        
+        -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 20px; /* Firefox */
+        column-gap: 20px;
+        
+        -webkit-column-gap: 2rem; /* Chrome, Safari, Opera */
+        -moz-column-gap: 2rem; /* Firefox */
+        column-gap: 2rem;
+        
+        -webkit-column-rule: 5px solid rgb(75, 180, 149)  ; /* Chrome, Safari, Opera */
+        -moz-column-rule: 5px solid rgb(75, 180, 149)  ; /* Firefox */
+        column-rule: 5px solid rgb(75, 180, 149)  ;
+        
+        -webkit-column-rule: 0.5rem solid rgb(75, 180, 149)  ; /* Chrome, Safari, Opera */
+        -moz-column-rule: 0.5rem solid rgb(75, 180, 149)  ; /* Firefox */
+        column-rule: 0.5rem solid rgb(75, 180, 149)  ;
+        
+        margin: 20px;
+        margin: 2rem;
+    
+    }
+    </style>
 </head>
 <body>
-<img style="position:absolute;top:0.00in;left:0.00in;width:9.27in;height:15.27in" src="ci_1.png" />
-<img style="position:absolute;top:2.78in;left:1.21in;width:6.98in;height:0.20in" src="ci_2.png" />
-<img style="position:absolute;top:5.98in;left:1.20in;width:6.69in;height:0.22in" src="ci_3.png" />
-<img style="position:absolute;top:6.20in;left:1.20in;width:1.01in;height:0.41in" src="ci_4.png" />
-<img style="position:absolute;top:6.20in;left:2.21in;width:0.88in;height:0.41in" src="ci_5.png" />
-<img style="position:absolute;top:6.20in;left:3.08in;width:2.95in;height:0.41in" src="ci_6.png" />
-<img style="position:absolute;top:6.20in;left:6.04in;width:0.82in;height:0.41in" src="ci_7.png" />
-<img style="position:absolute;top:6.20in;left:6.86in;width:1.03in;height:0.41in" src="ci_8.png" />
-<img style="position:absolute;top:8.26in;left:1.20in;width:6.69in;height:0.42in" src="ci_9.png" />
-<div style="position:absolute;top:0.72in;left:4.80in;width:2.56in;line-height:0.39in;"><span style="font-style:normal;font-weight:bold;font-size:20pt;font-family:Arial;color:#000080">Departamento de</span><span style="font-style:normal;font-weight:bold;font-size:20pt;font-family:Arial;color:#000080"> </span><br/><DIV style="position:relative; left:0.42in;"><span style="font-style:normal;font-weight:bold;font-size:20pt;font-family:Arial;color:#000080">Informática</span><span style="font-style:normal;font-weight:bold;font-size:20pt;font-family:Arial;color:#000080"> </span><br/></SPAN></DIV></div>
-<div style="position:absolute;top:1.53in;left:6.28in;width:1.93in;line-height:0.34in;"><span style="font-style:normal;font-weight:bold;font-size:14pt;font-family:Arial;color:#000000">Nº De Entrega</span><span style="font-style:normal;font-weight:bold;font-size:20pt;font-family:Arial;color:#000000">:70</span><span style="font-style:normal;font-weight:bold;font-size:20pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:2.44in;left:2.94in;width:3.48in;line-height:0.42in;"><span style="font-style:normal;font-weight:bold;font-size:20pt;font-family:Arial;color:#000000">Préstamo de Productos</span><span style="font-style:normal;font-weight:bold;font-size:20pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:2.80in;left:3.68in;width:2.09in;line-height:0.23in;"><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000">Destinatario Responsable</span><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:3.00in;left:1.44in;width:1.42in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Fecha de Entrega:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:3.00in;left:5.91in;width:0.68in;line-height:0.21in;"><DIV style="position:relative; left:0.04in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Hora de</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></DIV><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Entrega:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN><DIV style="position:relative; left:0.14in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Curso:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></DIV></div>
-<div style="position:absolute;top:3.42in;left:1.29in;width:1.56in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Nombre del Alumno:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:3.42in;left:2.97in;width:2.76in;line-height:0.24in;"><span style="font-style:normal;font-weight:normal;font-size:12pt;font-family:Arial;color:#000000">Angel Agustín Domínguez Ortega</span><span style="font-style:normal;font-weight:normal;font-size:12pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:3.42in;left:6.70in;width:1.45in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">TERCERO MEDIO</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:3.86in;left:1.36in;width:1.50in;line-height:0.21in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Nombre Apoderado</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/><DIV style="position:relative; left:0.44in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Responsable:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></DIV><DIV style="position:relative; left:1.15in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Rut:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></DIV></div>
-<div style="position:absolute;top:3.86in;left:2.97in;width:2.46in;line-height:0.24in;"><span style="font-style:normal;font-weight:normal;font-size:12pt;font-family:Arial;color:#000000">Ángel Iván Domínguez Suazo</span><span style="font-style:normal;font-weight:normal;font-size:12pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:4.28in;left:2.97in;width:1.02in;line-height:0.24in;"><span style="font-style:normal;font-weight:normal;font-size:12pt;font-family:Arial;color:#000000">14535302-5</span><span style="font-style:normal;font-weight:normal;font-size:12pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:4.71in;left:1.39in;width:1.47in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Correo Electrónico:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:4.71in;left:2.97in;width:2.65in;line-height:0.24in;"><span style="font-style:normal;font-weight:normal;font-size:12pt;font-family:Arial;color:#000000">angel_dominguez@hotmail.com</span><span style="font-style:normal;font-weight:normal;font-size:12pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:5.13in;left:2.14in;width:0.72in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Teléfono:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:5.13in;left:2.97in;width:0.96in;line-height:0.24in;"><span style="font-style:normal;font-weight:normal;font-size:12pt;font-family:Arial;color:#000000">993438964</span><span style="font-style:normal;font-weight:normal;font-size:12pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:6.00in;left:3.65in;width:1.83in;line-height:0.23in;"><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000">Productos Entregados</span><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:6.21in;left:1.37in;width:0.71in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Producto</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:6.21in;left:2.42in;width:0.51in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Marca</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:6.21in;left:3.78in;width:1.61in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Piezas + Nº De Serie</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:6.21in;left:6.16in;width:0.62in;line-height:0.21in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Cantida</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/><DIV style="position:relative; left:0.24in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">d</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></DIV></div>
-<div style="position:absolute;top:6.21in;left:7.11in;width:0.56in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Estado</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:6.82in;left:1.29in;width:0.82in;line-height:0.21in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">PC ALL IN</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">ONE</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:6.82in;left:2.30in;width:0.32in;line-height:0.21in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">HP:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">___</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:7.42in;left:2.30in;width:0.51in;line-height:0.21in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">DELL:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">___</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:6.62in;left:3.17in;width:2.78in;line-height:0.21in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">PANTALLA + TECLADO + MOUSE +</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">CCABLE DE PODER</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:7.42in;left:3.17in;width:0.37in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">S/N:</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:7.22in;left:6.40in;width:0.14in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">1</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:7.22in;left:6.95in;width:0.88in;line-height:0.21in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">OPERATIV</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">O</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:8.28in;left:4.04in;width:1.05in;line-height:0.20in;"><span style="font-style:normal;font-weight:normal;font-size:10pt;font-family:Arial;color:#000000">Observaciones</span><span style="font-style:normal;font-weight:normal;font-size:10pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">El </span></SPAN><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:0.24in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">usuario </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:0.88in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">que </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:1.25in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">requiera </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:1.95in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">un </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:2.23in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">producto </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:2.97in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">y/o </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:3.27in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">sus </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:3.61in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">accesorios </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:4.49in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">para </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:4.90in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">el </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:5.11in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">préstamo </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:5.88in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">de </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.70in;left:1.29in;width:6.56in;line-height:0.21in;"><DIV style="position:relative; left:6.15in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">este,</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></DIV><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">deberá </span></SPAN><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:0.61in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">firmar </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.23in;"><DIV style="position:relative; left:1.13in;"><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000">obligatoriamente </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.23in;"><DIV style="position:relative; left:2.56in;"><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000">este </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:2.99in;"><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000">documento</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">, </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:4.02in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">teniendo </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:4.75in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">en </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:5.03in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">cuenta </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:5.62in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">que </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:5.99in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">el </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:6.20in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">o </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:8.89in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:6.37in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">la</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></DIV></div>
-<div style="position:absolute;top:9.08in;left:1.29in;width:1.05in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">apoderado(a)</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:9.08in;left:2.46in;width:0.59in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">percibe</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:9.08in;left:3.18in;width:0.18in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">el</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:9.08in;left:3.48in;width:0.69in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">producto</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:9.08in;left:4.29in;width:0.73in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">operativo</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:9.08in;left:5.13in;width:0.13in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">y</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:9.08in;left:5.37in;width:0.23in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">en</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:9.08in;left:5.72in;width:0.93in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">condiciones</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:9.08in;left:6.76in;width:0.23in;line-height:0.22in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">de</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:9.08in;left:1.29in;width:6.56in;line-height:0.20in;"><DIV style="position:relative; left:5.82in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">funcionar</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></DIV><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">perfectamente</span><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000">, </span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">el usuario deberá reconocer la </span><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000">responsabilidad económica a través</span><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000"> </span><br/><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000">de la firma de un pagaré </span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">si pierde o daña el equipo y todos sus componentes que lo</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">integran. </span></SPAN><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:0.79in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Así </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:1.16in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">como </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:1.71in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">también </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:2.44in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">si </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:2.69in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">corta, </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:3.25in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">elimina </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:3.91in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">o </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:4.13in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">daña </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:4.63in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">los </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:4.97in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">contenidos </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.66in;left:1.29in;width:6.56in;line-height:0.21in;"><DIV style="position:relative; left:5.90in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">digitales</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></DIV><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">almacenados </span></SPAN><br/></div>
-<div style="position:absolute;top:9.85in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:1.07in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">en </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.85in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:1.34in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">el </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.85in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:1.55in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">dispositivo. </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.85in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:2.45in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">Para </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.85in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:2.88in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">estos </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:9.85in;left:1.29in;width:6.56in;line-height:0.21in;"><DIV style="position:relative; left:3.36in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">casos el usuario será </span><span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Arial;color:#000000">moroso </span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">hasta que</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></DIV><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">reponga </span></SPAN><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:0.70in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">o </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:0.89in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">reembolse </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:1.76in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">el </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:1.98in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">valor </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:2.43in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">del </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:2.74in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">dispositivo </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:3.61in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">y </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:3.79in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">no </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:4.07in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">se </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:4.32in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">contemplarán </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.22in;"><DIV style="position:relative; left:5.41in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">situaciones </span></SPAN></DIV><br/></div>
-<div style="position:absolute;top:10.04in;left:1.29in;width:6.56in;line-height:0.21in;"><DIV style="position:relative; left:6.33in;"><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">de</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></DIV><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000">excepción por situación socioeconómica.</span><span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:12.80in;left:2.00in;width:1.53in;line-height:0.19in;"><span style="font-style:normal;font-weight:bold;font-size:9pt;font-family:Arial;color:#000000">Carlos Bascur Aravena</span><span style="font-style:normal;font-weight:bold;font-size:9pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:12.80in;left:5.46in;width:2.05in;line-height:0.19in;"><span style="font-style:normal;font-weight:bold;font-size:9pt;font-family:Arial;color:#000000">Firma Apoderado Responsable</span><span style="font-style:normal;font-weight:bold;font-size:9pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<div style="position:absolute;top:13.12in;left:1.44in;width:2.67in;line-height:0.19in;"><span style="font-style:normal;font-weight:bold;font-size:9pt;font-family:Arial;color:#000000">Encargado Departamento de Informática</span><span style="font-style:normal;font-weight:bold;font-size:9pt;font-family:Arial;color:#000000"> </span><br/></SPAN></div>
-<img style="position:absolute;top:2.12in;left:1.19in;width:7.05in;height:0.02in" src="ci_10.png" />
-<img style="position:absolute;top:2.77in;left:1.19in;width:7.02in;height:2.79in" src="ci_11.png" />
-<img style="position:absolute;top:5.96in;left:1.20in;width:0.02in;height:1.86in" src="ci_12.png" />
-<img style="position:absolute;top:6.17in;left:2.20in;width:0.02in;height:1.65in" src="ci_13.png" />
-<img style="position:absolute;top:6.17in;left:3.08in;width:0.02in;height:1.65in" src="ci_14.png" />
-<img style="position:absolute;top:6.17in;left:6.03in;width:0.02in;height:1.65in" src="ci_15.png" />
-<img style="position:absolute;top:6.17in;left:6.85in;width:0.02in;height:1.65in" src="ci_16.png" />
-<img style="position:absolute;top:5.96in;left:7.88in;width:0.02in;height:1.86in" src="ci_17.png" />
-<img style="position:absolute;top:5.97in;left:1.19in;width:6.71in;height:0.02in" src="ci_18.png" />
-<img style="position:absolute;top:6.18in;left:1.19in;width:6.71in;height:0.02in" src="ci_19.png" />
-<img style="position:absolute;top:6.59in;left:1.19in;width:6.71in;height:0.02in" src="ci_20.png" />
-<img style="position:absolute;top:7.80in;left:1.19in;width:6.71in;height:0.02in" src="ci_21.png" />
-<img style="position:absolute;top:8.25in;left:1.20in;width:0.02in;height:2.18in" src="ci_22.png" />
-<img style="position:absolute;top:8.25in;left:7.88in;width:0.02in;height:2.18in" src="ci_23.png" />
-<img style="position:absolute;top:8.26in;left:1.19in;width:6.71in;height:0.02in" src="ci_24.png" />
-<img style="position:absolute;top:8.68in;left:1.19in;width:6.71in;height:0.02in" src="ci_25.png" />
-<img style="position:absolute;top:10.41in;left:1.19in;width:6.71in;height:0.02in" src="ci_26.png" />
-<img style="position:absolute;top:12.52in;left:1.28in;width:2.95in;height:0.02in" src="ci_27.png" />
-<img style="position:absolute;top:12.52in;left:4.95in;width:3.05in;height:0.02in" src="ci_28.png" />
-<img style="position:absolute;top:11.14in;left:1.81in;width:2.17in;height:1.64in" src="ri_1.png" />
-<img style="position:absolute;top:0.71in;left:1.56in;width:1.31in;height:1.28in" src="ri_2.png" />
+    <div class="container">
+        <div class="row text-white text-center">
+            <div class="col-2 " ><img src="{{ asset('images/cclinares.png') }}"></div>
+            <div class=" bg-dark border"><p>Departametno de Informatica</p><p>C.C.LINARES.</p></div>
+        </div>
+    
+        <div class="row text-white text-center">
+            <div class=" bg-dark border">Destinario responsable.</div>
+        </div>
+        <div class="three-columns">
+            <p>
+                fecha: variable 
+                @for ($i = 0; $i <12; $i++)
+                     &nbsp; 
+                @endfor
+                hora: variable                   
+               
+            </p>
+            <p>
+                nombre alumno: variable 
+                @for ($i = 0; $i <8; $i++)
+                &nbsp; 
+                @endfor
+                curso: variable
+            </p>
+            <p>
+                nombre apoderado: variable 
+                @for ($i = 0; $i <8; $i++)
+                &nbsp; 
+                @endfor
+                rut: {{$asignacion}}
+            </p>
+            <p>
+                telefono: variable 
+                @for ($i = 0; $i <12; $i++)
+                &nbsp; 
+                @endfor
+               
+            </p>
+            <div class="row text-white text-center">
+                <div class=" bg-dark border">producto entregado.</div>
+            </div>
+            <div>
+                <p>
+                    marca: variable 
+                    @for ($i = 0; $i <12; $i++)
+                    &nbsp; 
+                    @endfor
+                    S/N: variable
+                </p>
+                <p>
+                    cantidad: 1 
+                    @for ($i = 0; $i <12; $i++)
+                    &nbsp; 
+                    @endfor
+                    estado: operativo
+                </p>
+            </div>
+            <div class="row text-white text-center">
+                <div class=" bg-dark border">Observaciones.</div>
+            </div>
+            <p class=" text-white bg-dark border">
+                <small>El usuario que requiera un producto y/o sus accesorios para el préstamo de este, deberá firmar obligatoriamente este documento, teniendo en cuenta que el o la apoderado(a) percibe el producto operativo y en condiciones de funcionar perfectamente, el usuario deberá reconocer la responsabilidad económica a través de la firma de un pagaré si pierde o daña el equipo y todos sus componentes que lo integran. Así como también si corta, elimina o daña los contenidos digitales almacenados en el dispositivo. Para estos casos el usuario será moroso hasta que reponga o reembolse el valor del dispositivo y no se contemplarán situaciones de excepción por situación socioeconómica.</small>
+               
+            </p>
+            <div>
+                <img src="{{ asset('images/firma.png') }}"> 
+                <p>_____________________
+                    @for ($i = 0; $i <6; $i++)
+                    &nbsp; 
+                    @endfor
+                    _________________
+                </p>
+            </div>
+            <br>
+            <center><h3>Pagare</h3></center>
+            <p>Don(ña) varibale_nombre_apoderado __________________domiciliado en ___________________________________ de la Comuna de ________________  en adelante el deudor, declara adeudar y se obliga a pagar a la Corporación Educacional Colegio Concepción, RUT 71.659.500-5 domiciliada en Linares, General Cristo Nº 0571 la suma de 20 Unidades de Fomento, liquidadas éstas a la época del vencimiento, en la forma que en adelante se expresa:
+
+                La deuda será pagada en el domicilio de la acreedora en dinero efectivo, vale vista bancario o cheque de esta plaza, el día 31 de julio de 2021, si éste recayera en sábado, domingo o festivo, el pago se prorroga al día hábil siguiente. 
+                En caso de mora o simple retardo en el pago antes indicado, la deuda que consta en este pagaré se considerará de plazo vencido, haciéndose exigible el total de lo adeudado y devengándose en este caso el máximo de interés convencional para operaciones no reajustables vigentes a la fecha o época de la mora o retardo, libreando el deudor al acreedor del protesto de la misma.  El interés moratorio se aplicará sobre el total del saldo adeudado, desde la mora o simple retardo y hasta la fecha de su pago efectivo.
+                En caso de cobro judicial corresponderá al deudor acreditar el pago de las cuotas de servicio de este pagaré.
+                Todos los gastos de otorgamiento de este instrumento serán de cargo del deudor.
+                El acreedor queda liberado de la obligación de protesto.
+                Las partes fijan como domicilio para todos los efectos del presente pagaré la ciudad de Linares prorrogando competencia para ante sus Tribunales.
+                Todas las obligaciones emanadas del presente pagaré tienen el carácter de indivisible para todos los efectos legales.
+            </p>
+            <br>
+            <p>_____________________________</p> 
+            <p><small>    DEUDOR
+                RUT: rut_apoderado</small></p>
+                <p><small>
+                Linares,___ de _________________ de 20____
+                Autorizo la firma del deudor don ___________________________________________
+                Cédula nacional de identidad Nº ____________________________________________
+                </small></p>
+                           
+            
+        </div>
+    </div>
+
 </body>
+
+
 </html>

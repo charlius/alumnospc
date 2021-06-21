@@ -6,8 +6,10 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Imports\AlumnosImport;
 use App\Models\Alumnos;
+use App\Models\apoderado;
 use App\Models\asigncion;
 use Barryvdh\DomPDF\Facade as PDF;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -50,7 +52,16 @@ class homeControllers extends Controller
 
     function pdf($id){
         $r_alumno=strval($id);
-        $pdf = PDF::loadView('admin.pdf_prestamo', compact('r_alumno'));
-        return $pdf->stream();
+        $alumnos =DB::table('alumnos')->where('rut',$r_alumno)->get();
+       
+     
+        $id_a=$alumnos[0]->id;
+        //arreglar el select para traer los datos del pdf
+        $asignacion =Alumnos::join('asigncions','asigncions.id_alumnos','=','alumnos.id')->join('apoderados','asigncions.id_apoderados','=','apoderados.id')->select('apoderados.rut_apo')->where('asigncions.id_alumnos',intval($id_a))->get();
+       
+        
+        $pdf = PDF::loadView('admin.pdf_prestamo', compact('asignacion'));
+        //return $pdf->stream();
+        return view('admin.pdf_prestamo',compact('asignacion'));
     }
 }
