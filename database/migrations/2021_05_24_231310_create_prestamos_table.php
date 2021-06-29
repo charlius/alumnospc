@@ -17,6 +17,11 @@ class CreatePrestamosTable extends Migration
             $table->id();
             $table->unsignedBigInteger('id_apoderados');
             $table->unsignedBigInteger('id_alumnos');
+            $table->string('marca');
+            $table->string('s_n');
+            $table->string('datalle');
+            $table->string('comentario');
+            $table->string('estado');
             $table->timestamp('updated_at');
             $table->timestamp('created_at');
             $table->foreign('id_apoderados')->references('id')->on('apoderados');

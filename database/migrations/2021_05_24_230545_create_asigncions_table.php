@@ -17,14 +17,15 @@ class CreateAsigncionsTable extends Migration
             $table->id();
             $table->string('descripcion');
             $table->string('asignacion');
-            $table->unsignedBigInteger('id_alumnos');
-            $table->string('producto');
-            $table->string('marca');
+            $table->unsignedBigInteger('id_alumnos');           
+            $table->string('estado');
             $table->unsignedBigInteger('id_apoderados');
+            
             $table->timestamp('updated_at');
             $table->timestamp('created_at');            
             $table->foreign('id_alumnos')->references('id')->on('alumnos');
             $table->foreign('id_apoderados')->references('id')->on('apoderados');
+
         });
     }
 

@@ -19,6 +19,7 @@ class CreateApoderadosTable extends Migration
             $table->string('rut_apo');
             $table->string('telefono_apo');
             $table->string('correo_apo');
+            $table->string('estado');
             $table->timestamp('updated_at');
             $table->timestamp('created_at');
         });

@@ -9,7 +9,7 @@ class apoderado extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'nombre_apo', 'rut_apo', 'telefono_apo', 'correo_apo'
+        'nombre_apo', 'rut_apo', 'telefono_apo', 'correo_apo','estado'
     ];
 
     protected $table = 'apoderados';

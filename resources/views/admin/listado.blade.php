@@ -15,17 +15,36 @@
             <th scope="col">rut</th>
             <th scope="col">descripcion</th>
             <th scope="col">asignacion</th>
+            <th scope="col">prestamo</th>
             <th scope="col">opcion</th>
           </tr>
         </thead>
         <tbody>
             @foreach ($alumnos as $alumno)
             <tr>
-                <th >{{$alumno->nombre}}</th>
-                <td>{{$alumno->rut}}</td>
-                <td>{{$alumno->descripcion}}</td>
-                <td>{{$alumno->asignacion}}</td>
-                <td><a href="{{ url('/admin/prestamo/'.$alumno->rut) }}" class="btn btn-success">Prestamo</a><button type="button" class="btn btn-danger">recepcion</button></td>
+                
+                @foreach ($prestamos as $prestamo)
+                    @if ($alumno->id_apoderados==$prestamo->id_apoderados)
+                      <th >{{$alumno->nombre}}</th>
+                      <td>{{$alumno->rut}}</td>
+                      <td>{{$alumno->descripcion}}</td>
+                      <td>{{$alumno->asignacion}}</td>
+                      <td>{{$prestamo->estado}}</td>
+                      @if ($prestamo->estado=="activo")
+                        
+                         <td><a href="{{ url('/admin/devolucion/'.$alumno->rut) }}" aria-disabled="true" class="btn btn-danger">Devolucion</a></td>
+                      @else
+                        <td><a href="{{ url('/admin/prestamo/'.$alumno->rut) }}" class="btn btn-success">Prestamo</a></td> 
+                      @endif
+                    @else
+                        
+                    @endif
+                @endforeach
+               
+                 
+                                 
+              
+                
               </tr>
             @endforeach
          

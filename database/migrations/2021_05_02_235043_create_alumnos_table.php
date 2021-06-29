@@ -19,6 +19,7 @@ class CreateAlumnosTable extends Migration
             $table->string('nombre');
             $table->string('curso');
             $table->string('rut');
+            $table->string('estado');
             $table->timestamp('updated_at');
             $table->timestamp('created_at');
 

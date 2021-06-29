@@ -9,7 +9,7 @@ class Alumnos extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'marca_temporal', 'nombre', 'curso', 'rut'
+        'marca_temporal', 'nombre', 'curso', 'rut','estado'
     ];
 
     protected $table = 'alumnos';

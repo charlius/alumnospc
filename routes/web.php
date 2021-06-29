@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect (route('login'));
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin.index', function () {
     return view('admin.index');
-})->name('dashboard');
+})->name('admin');

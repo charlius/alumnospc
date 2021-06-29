@@ -9,7 +9,7 @@ class asigncion extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'descripcion', 'asignacion', 'id_alumnos', 'producto','marca','id_apoderados'
+        'descripcion', 'asignacion','id_alumnos','id_apoderados','estado'
     ];
 
     protected $table = 'asigncions';

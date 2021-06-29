@@ -9,11 +9,13 @@
 @section('content')
 
 <div class="flex-center position-ref full-height">
-    <h4>Seleciona el excel de la lista de los alumnos de asignacion</h4>
+    <h4 id="h4">Exporta primero la informacion </h4>
+
+    <a href="{{ url('/admin/download/') }}" aria-disabled="true" class="exportar btn btn-success">exportar datos</a>
     <div class="container mt-5">
       
  
-       
+        
         <form action="{{route('import')}}" method="POST" enctype="multipart/form-data">
             {{csrf_field()}}
             @if(Session::has('message'))
@@ -43,9 +45,9 @@
                         <!--this field changes dinamically displaying the filename we are trying to upload-->
                         <p id="namefile">solo archivos excel! (.xlsx, .xls, .csv)</p>
                         <!--our custom btn which which stays under the actual one-->
-                        <button type="button" id="btnup" class="btn btn-primary btn-lg">Busca tu excel!</button>
+                        <button type="button" id="btnup" class="btnup btn btn-primary btn-lg">Busca tu excel!</button>
                         <!--this is the actual file input, is set with opacity=0 beacause we wanna see our custom one-->
-                        <input type="file" value="" name="fileup" id="fileup">
+                        <input class="fileup" type="file" value="" name="fileup" id="fileup">
                     </div>
                 </div>
             </div>
@@ -163,6 +165,20 @@
 @section('js')
     <script>
         $(document).ready(function(){
+            let button = document.querySelector(".fileup");
+            button.disabled = true;
+            let button2 = document.querySelector(".btnup");
+            button2.disabled = true;
+
+            $(".exportar").click(function(e){
+                let button = document.querySelector(".fileup");
+                button.disabled = false;
+                let button2 = document.querySelector(".btnup");
+                button2.disabled = false;
+                $( ".exportar" ).hide();
+                document.getElementById('h4').innerHTML = 'Ahora sube tu excel!';
+                
+            })
             Swal.fire(
             'atencion',
             'al subir un nuevo excel se eliminar los datos acutales!',
